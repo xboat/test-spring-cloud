@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-one" />
+        <module name="eureka-two" />
+        <module name="eureka-zero" />
+        <module name="eureka1" />
+        <module name="service-consumer" />
+        <module name="service-producer" />
+        <module name="service-producer0" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-one" target="1.8" />
+      <module name="eureka-two" target="1.8" />
+      <module name="eureka-zero" target="1.8" />
+      <module name="eureka1" target="1.8" />
+      <module name="service-consumer" target="1.8" />
+      <module name="service-producer" target="1.8" />
+      <module name="service-producer0" target="1.8" />
+      <module name="spring-cloud" target="1.8" />
+      <module name="test-eureka" target="1.8" />
+      <module name="test-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-one" options="-parameters" />
+      <module name="eureka-two" options="-parameters" />
+      <module name="eureka-zero" options="-parameters" />
+      <module name="service-consumer" options="-parameters" />
+      <module name="service-producer" options="-parameters" />
+      <module name="service-producer0" options="-parameters" />
+    </option>
+  </component>
+</project>
